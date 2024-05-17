@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <!-- Header -->
+    <header class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Developer Portfolio</h1>
+            <nav>
+                <a href="#about" class="mx-4">About</a>
+                <a href="#projects" class="mx-4">Projects</a>
+                <a href="#contact" class="mx-4">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Intro Section -->
+    <section id="about" class="py-12 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-4">Hi, I'm [Your Name]</h2>
+            <p class="text-xl mb-8">I'm a full-stack developer with a passion for building beautiful and functional web applications. Welcome to my portfolio!</p>
+            <img src="your-photo.jpg" alt="Your Photo" class="rounded-full mx-auto w-48 h-48 object-cover">
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-12 bg-gray-100">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-semibold mb-2">Project 1</h3>
+                    <p class="text-gray-700 mb-4">Description of the project goes here. This project showcases skills in XYZ.</p>
+                    <a href="#" class="text-blue-500 hover:underline">View Project</a>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-semibold mb-2">Project 2</h3>
+                    <p class="text-gray-700 mb-4">Description of the project goes here. This project showcases skills in XYZ.</p>
+                    <a href="#" class="text-blue-500 hover:underline">View Project</a>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-semibold mb-2">Project 3</h3>
+                    <p class="text-gray-700 mb-4">Description of the project goes here. This project showcases skills in XYZ.</p>
+                    <a href="#" class="text-blue-500 hover:underline">View Project</a>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-12 bg-white">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">Contact Me</h2>
+            <form class="max-w-lg mx-auto">
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700 mb-2">Name</label>
+                    <input type="text" id="name" class="w-full p-2 border border-gray-300 rounded-lg" required>
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700 mb-2">Email</label>
+                    <input type="email" id="email" class="w-full p-2 border border-gray-300 rounded-lg" required>
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-gray-700 mb-2">Message</label>
+                    <textarea id="message" class="w-full p-2 border border-gray-300 rounded-lg" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-lg">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
